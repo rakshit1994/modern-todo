@@ -1,0 +1,23 @@
+{
+  "name": "modern-todo-extension",
+  "version": "1.0.0",
+  "description": "A modern, fully customizable offline todo application for Chrome",
+  "main": "build.js",
+  "scripts": {
+    "build": "node build.js",
+    "dev": "echo 'Load unpacked extension from chrome://extensions/'",
+    "package": "npm run build",
+    "clean": "rm -f *.zip"
+  },
+  "devDependencies": {
+    "archiver": "^5.3.1"
+  },
+  "keywords": [
+    "chrome-extension",
+    "todo",
+    "productivity",
+    "offline"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
